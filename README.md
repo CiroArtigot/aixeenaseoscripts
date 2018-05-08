@@ -4,11 +4,9 @@ Aixeena SEO Scripts
 1.- Description
 ---------------------------  
 
-**Aixeena SEO Scripts** is free Joomla plugin to minimize the weight of the images of your site.
+**Aixeena SEO Scripts** is a free Joomla plugin to move all the scripts to the bottom/footer
 
-With this Joomla plugin just move all the scripts to the bottom/footer
-
-The plugin is thinked for Joomla developers who need or love to increase the perfomance of their sites.
+The plugin is designed for Joomla developers who need or love to increase the perfomance of their sites.
 
 This plugin belongs to the Aixeena SEO plugin collection.
 
@@ -16,7 +14,7 @@ This plugin is created by [Ciro Artigot](http://twitter/ciroartigot) to contribu
 
 2.- Features
 ---------------------------
-* Move all oyur .js and javascript code to the bottom of the page to increase the site performance.
+* Move all your .js and javascript code to the bottom of the page to increase the site performance.
 
 3.- Install / Configuration
 --------------------------- 
