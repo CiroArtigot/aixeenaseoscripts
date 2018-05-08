@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3" type="plugin" group="aixeenaseo">
+	
+	<name>Aixeena SEO - Scripts to footer</name>
+	<author>Ciro Artigot</author>
+	<creationDate>January 2018</creationDate>
+	<copyright>Copyright (C) 2018 Ciro Artigot. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>info@aixeena.org</authorEmail>
+	<authorUrl>www.aixeena.org</authorUrl>
+	<version>1.0.0</version>
+	<description>Aixeena SEO Scripts to the footer</description>
+	
+	<files>
+		<filename plugin="aixeenaseoscripts">aixeenaseoscripts.php</filename>
+		<filename>index.html</filename>
+	</files>
+	
+	<!--
+	<updateservers>
+        <server type="extension" priority="2" name="Aixeena updates">
+				http://aixeena.org/updates/aixeena_seo/aixeenaseoscripts.xml
+        </server>
+    </updateservers>-->
+	
+	<config>	
+	</config>
+	
+</extension>
