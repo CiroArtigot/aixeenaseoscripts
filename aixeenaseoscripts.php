@@ -57,11 +57,13 @@
 		
 		$session = JFactory::getSession();
 		$footcode = $session->get( 'aixeenaseo_footcode');
+		$hayfoot = 0;
 		$footcode_lines = '
 ';
 
 		if(is_array($footcode) && count($footcode) > 0) {	
 
+			$hayfoot = 1;
 			foreach ($footcode as $key => $row) {
 				$position[$key] = $row['position'];
 			}
@@ -72,7 +74,7 @@
 ';			
 			}	
 		}
-		$buffer =  str_replace('</body>', $footcode_lines.'	</body>',$buffer);			
+		if($hayfoot) $buffer =  str_replace('</body>', $footcode_lines.'	</body>',$buffer);			
 		
 		$newarray = array();
 		$session->set('aixeenaseo_footcode', $newarray );
